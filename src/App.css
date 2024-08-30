@@ -1,0 +1,10 @@
+#root {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    padding: 3rem 21.1vw; /* 3rem = 48px, (1920-1110)/2 = 405px ≈ 21.1vw (405/1920) = 25.3125rem   */
+    margin: 0;
+    font-family: "Inter";
+    overflow: hidden;
+}
