@@ -94,6 +94,7 @@ function NotesTable(props: NotesTableProps) {
                 background: "#F8F9FA",
                 maxWidth: "1110px",
                 maxHeight: "607px",
+                overflow: "hidden",
             }}
         >
             <div className={"card-body  d-flex flex-column p-0 gap-3"}>
