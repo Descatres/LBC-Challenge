@@ -88,10 +88,10 @@ function Table(props: TableProps) {
                                 <label
                                     htmlFor="customCheckbox  m-0"
                                     style={{
-                                        fontSize: "16px",
                                         maxHeight: "50px",
+                                        fontSize: "16px",
                                         fontWeight: 400,
-                                        // lineHeight: "28px",
+                                        lineHeight: "28px",
                                         textDecoration: note.completed
                                             ? "line-through"
                                             : "none",
@@ -126,7 +126,16 @@ function Table(props: TableProps) {
                                 width: "25.4%",
                             }}
                         >
-                            <p className="m-0">{note.lastUpdate}</p>
+                            <p
+                                className="m-0"
+                                style={{
+                                    fontSize: "16px",
+                                    fontWeight: "400",
+                                    lineHeight: "28px",
+                                }}
+                            >
+                                {note.lastUpdate}
+                            </p>
                         </td>
                         <td>
                             <Delete
