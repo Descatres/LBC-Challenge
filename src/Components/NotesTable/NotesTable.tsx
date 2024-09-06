@@ -281,7 +281,7 @@ function NotesTable(props: NotesTableProps) {
                                 disabled={disabledN}
                                 totalPages={totalPages}
                                 currentPage={currentPage}
-                                onClick={handleShowPrevious}
+                                onClick={handleShowNext}
                             />
                             <Dropdown
                                 notesShown={notesShown}
