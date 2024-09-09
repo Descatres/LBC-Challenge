@@ -144,6 +144,11 @@ function NotesTable(props: NotesTableProps) {
                             // maxHeight: "40px",
                             // padding: "9px 16px",
                         }}
+                        onKeyDown={(e) => {
+                            if (e.key === "Enter") {
+                                handleAddNote();
+                            }
+                        }}
                     />
                     <Primary onClick={handleAddNote} />
                     <div
